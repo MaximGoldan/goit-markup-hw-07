@@ -1,0 +1,42 @@
+/* <!-- постоянные клиенты --> */
+.clients {
+  background: #ffffff;
+  padding-bottom: 95px;
+  padding-top: 95px;
+}
+.clients-title {
+  /* font-weight: 700; */
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  /* background-color: #ffffff; */
+  color: #afb1b8;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients-link {
+  fill: currentColor;
+}
+.clients-link:hover,
+.clients-link:focus {
+  border-color: #2196f3;
+  color: #2196f3;
+}

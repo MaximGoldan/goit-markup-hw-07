@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} /* Скидівание точекв в li */
+
 h1,
 h2,
 h3,

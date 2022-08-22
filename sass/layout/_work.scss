@@ -2,7 +2,7 @@
 .work {
   padding-bottom: 95px;
 }
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -12,18 +12,18 @@
   margin-bottom: 50px;
 }
 
-.work-list {
+.work__list {
   display: flex;
   gap: 30px;
 }
-.work-item {
+.work__item {
   position: relative;
   width: calc((100% - 60px) / 3);
   max-width: 100%;
   height: auto;
 }
 
-.work-text {
+.work__text {
   display: flex;
   position: absolute;
   bottom: 0px;

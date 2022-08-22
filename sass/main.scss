@@ -6,14 +6,26 @@
 
 @import './utils/hidden';
 
+@import './utils/active';
+
 @import './components/container';
+
+@import './layout/logo';
+
+@import './layout/socials';
+
+@import './components/modal';
+
+@import './components/modal-form';
 
 @import './layout/header';
 
 @import './layout/hero';
-
 @import './layout/benefits';
 @import './layout/work';
 @import './layout/team';
 @import './layout/clients';
-@import './layout/benefits';
+@import './layout/futer';
+@import './layout/futer-form';
+
+@import './layout/portfolio';

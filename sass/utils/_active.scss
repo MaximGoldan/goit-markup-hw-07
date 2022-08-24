@@ -1,6 +1,7 @@
 /* подчеркивание   */
 .active {
   color: #2196f3;
+
   &::after {
     position: absolute;
     display: block;

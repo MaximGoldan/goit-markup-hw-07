@@ -6,8 +6,6 @@
 
 @import './utils/hidden';
 
-@import './utils/active';
-
 @import './components/container';
 
 @import './layout/logo';
@@ -19,7 +17,7 @@
 @import './components/modal-form';
 
 @import './layout/header';
-
+@import './utils/active';
 @import './layout/hero';
 @import './layout/benefits';
 @import './layout/work';
